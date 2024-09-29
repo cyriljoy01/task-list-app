@@ -11,13 +11,15 @@ A task management application built with React and TypeScript. The frontend inte
 
 ## Tech Stack
 
-- **Frontend**: React + TypeScript.
-- **Backend**: Node.js + Express + TypeScript.
+- **React**
+- **TypeScript**: Strong typing to ensure type safety across the application.
+- **Axios**: To interact with the backend API for all CRUD operations.
 
-## Project Structure
+## Prerequisites
 
-The project is divided into two main parts: the frontend (`app` folder) and the backend (`api` folder).
+Before you begin, ensure you have installed:
 
+- **Node.js** (v14 or higher)
 
 ## Installation
 
@@ -25,25 +27,13 @@ The project is divided into two main parts: the frontend (`app` folder) and the 
 
    ```bash
    git clone https://github.com/cyriljoy01/task-list-app.git
+   cd task-list-app/app
 
-2. **Install frontend dependencies**:
-    cd app
+2. **Install dependencies**:
     npm install
 
-3. **Install backend dependencies**:
-    cd ../api
-    npm install
-
-## Run Frontend (App)
-    cd app
-    npm start
+3. **Run**
+    npm run start
 
     Runs the app in the development mode.\
     Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Run Backend  (API)
-    cd api
-    npm start
-
-    The API will run on http://localhost:4000.
-
